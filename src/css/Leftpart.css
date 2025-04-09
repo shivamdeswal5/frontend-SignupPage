@@ -1,0 +1,115 @@
+.container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+    width: 55%;
+}
+.title{
+    margin-bottom: 4rem;
+}
+.horizontalLine{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin: 3rem 0;
+}
+
+.leftLine{
+    height: 1px;
+    width: 47%;
+    border: 1px solid rgb(216, 215, 215);
+}
+
+.rightLine{
+    height: 1px;
+    width: 47%;
+    border: 1px solid rgb(216, 215, 215);
+}
+
+.signUp-Options{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.signInButton{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: 1px solid rgb(56, 56, 56);
+    gap: 2px;
+}
+
+.setGoogleLogo{
+    width: 25px;
+    padding: 4px;
+}
+
+.setAppleLogo{
+    width: 25px;
+    padding: 3px;
+}
+
+.alreadyHaveAcnt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.alreadyHaveAcnt span{
+    color: blue;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .gContent, .aContent{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    .container2{
+        width: 70%;
+    }
+    
+}
+
+@media screen and (max-width: 470px){
+
+    .container{
+        width: 100%;
+    }
+
+    .alreadyHaveAcnt{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 242px){
+
+    .alreadyHaveAcnt{
+        flex-direction: column;
+    }
+    
+}

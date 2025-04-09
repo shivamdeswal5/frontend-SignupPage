@@ -1,0 +1,19 @@
+
+
+@media screen and (max-width: 1388px){
+    .rightPart{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .rightPart{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 470px){
+    .rightPart{
+        display: none;
+    }
+}
